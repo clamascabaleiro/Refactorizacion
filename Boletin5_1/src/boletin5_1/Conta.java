@@ -69,7 +69,7 @@ public class Conta {
         System.out.println("Nombre de cliente = " + nombre + "\nnumero de cuenta = " + numeroConta + "\nSaldo = " + saldo);
     }
 
-    public double transferencia(String contaDestino, double importe) {
+    public double transferir(String contaDestino, double importe) {
         saldo -= importe;
         return saldo;
     }
