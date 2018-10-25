@@ -12,11 +12,13 @@ package boletin5_1;
 public class Conta {
 
     // Declaro variables
+    
     private String nombre;
     private String numeroConta;
     private double saldo;
 
     // Creo Constructores
+    
     public Conta() {
 
     }
@@ -29,6 +31,7 @@ public class Conta {
     }
 
     // Declaro gets y sets
+    
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -54,6 +57,7 @@ public class Conta {
     }
 
     // Creamos metodos ingresar y sacar
+    
     public double ingresar(double cantIngreso) {
         saldo += cantIngreso;
         return saldo;
@@ -65,6 +69,7 @@ public class Conta {
     }
 
     // Creamos metodo amosar
+    
     public void amosar() {
         System.out.println("Nombre de cliente = " + nombre + "\nnumero de cuenta = " + numeroConta + "\nSaldo = " + saldo);
     }

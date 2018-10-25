@@ -18,6 +18,7 @@ public class Boletin5_1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
         Scanner ler = new Scanner(System.in);
         Conta datos = new Conta();
         System.out.println("Introduzca cliente:");
